@@ -5,9 +5,7 @@ using namespace std;
 int countDigits1(int n){
 
     int count = 0 ;
-    while(n>0)
-    {
-        int lastDigit = n % 10;
+    while( n != 0){
         n = n/10;
         count++;
     }
@@ -25,6 +23,6 @@ int countDigits2(int n){
 int main()
 {   int n;
     cout << " Enter Number here : " ; cin >> n;
-    cout << countDigits2(n);
+    cout << countDigits1(n);
     return 0;
 }
