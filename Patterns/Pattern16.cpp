@@ -13,8 +13,8 @@ void pattern(int n){
 // Input: ‘N’ = 3
 // Output: 
 // A
-// A B
-// A B C
+// B B
+// C C C
 
 int main()
 {   int n;
